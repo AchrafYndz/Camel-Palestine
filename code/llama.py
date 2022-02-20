@@ -1,9 +1,6 @@
 import math
-import random
-from threading import Event
 import pygame
 from tiles import AnimatedTile
-from settings import screen_width, screen_height
 
 
 class Bullets:
