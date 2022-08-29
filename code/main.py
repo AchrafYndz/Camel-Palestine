@@ -10,6 +10,7 @@ class Game:
     def __init__(self):
 
         # game attributes
+        self.level = None
         self.max_level = 0
         self.max_health = 100
         self.current_health = 100
@@ -88,7 +89,7 @@ class Game:
 pygame.init()
 
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Palestine's bizarre adventures")
+pygame.display.set_caption("Camel Palestine")
 icon = pygame.image.load("../assets/graphics/icon/icon.png")
 pygame.display.set_icon(icon)
 clock = pygame.time.Clock()

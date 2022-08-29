@@ -3,6 +3,14 @@ from support import import_folder
 from math import sin
 
 
+def wave_value():
+    value = sin(pygame.time.get_ticks())
+    if value >= 0:
+        return 255
+    else:
+        return 0
+
+
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, surface, create_jump_particles, change_health, change_water):
         super().__init__()
@@ -71,7 +79,7 @@ class Player(pygame.sprite.Sprite):
             self.rect.bottomright = self.collision_rect.bottomright
 
         if self.invincible:
-            alpha = self.wave_value()
+            alpha = wave_value()
             self.image.set_alpha(alpha)
         else:
             self.image.set_alpha(255)
@@ -152,13 +160,6 @@ class Player(pygame.sprite.Sprite):
             current_time = pygame.time.get_ticks()
             if current_time - self.hurt_time >= self.invincibility_duration:
                 self.invincible = False
-
-    def wave_value(self):
-        value = sin(pygame.time.get_ticks())
-        if value >= 0:
-            return 255
-        else:
-            return 0
 
     def update(self):
         self.get_input()

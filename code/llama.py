@@ -36,7 +36,6 @@ class Llama(AnimatedTile):
 
     def spit(self):
         current_time = pygame.time.get_ticks()
-        # print(f"{current_time-self.time}")
         # if more than x seconds have passed
         if current_time > self.time + 10000:
             # we reset the bullet
