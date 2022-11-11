@@ -9,8 +9,6 @@
   <p align="center">
     2D Platformer Game
     <br />
-    <a href="https://github.com/AchrafYndz/Camel-Palestine">View Demo</a>
-    ·
     <a href="https://github.com/AchrafYndz/Camel-Palestine/issues">Report Bug</a>
     ·
     <a href="https://github.com/AchrafYndz/Camel-Palestine/issues">Request Feature</a>
@@ -103,14 +101,14 @@ Alternatively, if you're on Windows, simply run the prebuilt `main.exe` file tha
 
 ### How to play
 
-The game has 6 unique levels. Each level is more challenging than the previous. You need to complete a level before
+The game has 6 unique levels. Each level is more challenging than the last. You need to complete a level before
 unlocking the next one.
 
 The goal of the game is to avoid the enemies and try to get to
 the [keffiyeh](https://en.wikipedia.org/wiki/Keffiyeh) <img src="assets/graphics/overworld/hat.png" width="40">
 at the end of the level.
 
-Be careful however, camel Palestine is very thirsty and can only move if he has water to spare . You can replenish your
+Be careful however, camel Palestine is very dehydrated and can only move if he has water to spare . You can replenish your
 water level by taking a hit <img src="assets/graphics/llama/spit.png" width="34"> from the llama. Although this will
 cost you some HP.
 
@@ -122,17 +120,17 @@ The other enemies <img src="assets/graphics/enemy/run/1.png" width="30"> can be 
 
 #### In-game
 
-<kbd>w</kbd> or <kbd>🡱</kbd>: jump
+<kbd>w</kbd> or <kbd>&#8593;</kbd>: jump
 
-<kbd>a</kbd> or <kbd>🡰</kbd>: move left
+<kbd>a</kbd> or <kbd>&#8592;</kbd>: move left
 
-<kbd>d</kbd> or <kbd>🡲</kbd>: move right
+<kbd>d</kbd> or <kbd>&#8594;</kbd>: move right
 
 #### Menu
 
-<kbd>a</kbd> or <kbd>🡰</kbd>: previous level
+<kbd>a</kbd> or <kbd>&#8592;</kbd>: previous level
 
-<kbd>d</kbd> or <kbd>🡲</kbd>: next level
+<kbd>d</kbd> or <kbd>&#8594;</kbd>: next level
 
 <kbd>Enter</kbd> or <kbd>Spacebar</kbd>: select
 
@@ -144,7 +142,7 @@ Contributions are what make the open source community such an amazing place to l
 contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
-simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+simply open an issue with the tag "enhancement". Don't forget to give the project a star!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
