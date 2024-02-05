@@ -103,7 +103,7 @@ Alternatively, if you're on Windows, simply run the prebuilt `main.exe` file tha
 
 #### In-game
 
-<kbd>w</kbd> or <kbd>&#8593;</kbd>: jump
+<kbd>w</kbd>, <kbd>&#8593;</kbd> or <kbd>Spacebar</kbd>: jump
 
 <kbd>a</kbd> or <kbd>&#8592;</kbd>: move left
 
