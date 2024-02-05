@@ -99,23 +99,6 @@ Alternatively, if you're on Windows, simply run the prebuilt `main.exe` file tha
 
 ## Gameplay
 
-### How to play
-
-The game has 6 unique levels. Each level is more challenging than the last. You need to complete a level before
-unlocking the next one.
-
-The goal of the game is to avoid the enemies and try to get to
-the [keffiyeh](https://en.wikipedia.org/wiki/Keffiyeh) <img src="assets/graphics/overworld/hat.png" width="40">
-at the end of the level.
-
-Be careful however, camel Palestine is very dehydrated and can only move if he has water to spare . You can replenish your
-water level by taking a hit <img src="assets/graphics/llama/spit.png" width="34"> from the llama. Although this will
-cost you some HP.
-
-The other enemies <img src="assets/graphics/enemy/run/1.png" width="30"> can be killed by jumping on top of them.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Controls
 
 #### In-game
@@ -133,6 +116,8 @@ The other enemies <img src="assets/graphics/enemy/run/1.png" width="30"> can be 
 <kbd>d</kbd> or <kbd>&#8594;</kbd>: next level
 
 <kbd>Enter</kbd> or <kbd>Spacebar</kbd>: select
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
